@@ -1,0 +1,213 @@
+body{
+	margin: 0;
+	margin-top: 50px;
+	font-family: sans-serif;
+}
+
+header{
+	display: flex;
+	position: fixed;
+	top:  0 ;
+	left: 0;
+	right: 0;
+	height: 50px;
+	line-height: 50px;
+	background-color: #808080;
+}
+
+header *{
+	display: inline;
+	height: 50px;
+}
+
+header ul{
+	padding:  0;
+}
+
+header li{
+	margin-left: 20px;
+}
+
+#home1{
+	margin-left: 20px;
+}
+
+#about1{
+	margin-left: 20px;
+}
+
+#contact1{
+	margin-left: 20px;
+}
+
+section{
+	height: 100vh;
+	border: 1px solid black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+#hero .profile-img{
+	width: 300px;
+	border-radius: 50%;
+}
+
+footer{
+	text-align: left;
+	padding: 15px;
+	color: white;
+	background-color: grey;
+}
+
+.fa-facebook {
+  color: white;
+  text-decoration: none;
+}
+
+.fa-twitter{
+	color: white;
+	text-decoration: none;
+}
+
+.fa-linkedin{
+	color: white;
+	text-decoration: none;
+	margin-left: 1150px;
+}
+
+.fa-github{
+	color: white;
+	text-decoration: none;
+}
+
+.fa-youtube{
+	color: white;
+	text-decoration: none;
+}
+
+#hero h1{
+	font-size: 3em;
+}
+
+section h2{
+	font-size: 2.5em;
+}
+
+#h22{
+	margin-top: -10px;
+}
+
+#aboutme{
+	font-size: 1.25em;
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-bottom: 75px;
+	margin-top: -10px;
+}
+
+#memorygame{
+	font-size: 1.5em;
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-top: -10px;
+}
+
+#p1{
+	font-size: 1.25em;
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-bottom: 25px;
+	margin-top: -10px;
+}
+
+#automation{
+	font-size: 1.5em;
+	margin-left: 150px;
+	margin-right: 150px;
+}
+
+#p3{
+	font-size: 1.25em;
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-bottom: 100px;
+	margin-top: -10px;
+}
+header a {
+	text-decoration: none;
+	color:  black;
+}
+
+#COntact{
+	font-size: 2.5em;
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-top: -100px;
+}
+
+#hero{
+	background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://wallpaperaccess.com/full/1691795.jpg');
+}
+
+#about{
+	background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://i.pinimg.com/736x/e1/4b/70/e14b7097d76237a8f5aba0dc66d01e1b.jpg');
+}
+
+#contact{
+	background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://wallpapercave.com/wp/wp3269159.jpg');
+
+}
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body { background:rgb(30,30,40); }
+form { max-width:420px; margin:50px auto; }
+
+.feedback-input {
+  color:black;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid ;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid #808080; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background: #808080;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#808080; }
